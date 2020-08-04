@@ -44,7 +44,7 @@ struct LoginPage : View {
             
             Text("Mood of the Day")
             
-            Text("\"Aesthetic Mood\"")
+            Text("\"Happy Mood\"")
                 .font(.title)
                 
             Image("SOSGirl").resizable()
