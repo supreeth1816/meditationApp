@@ -1,0 +1,6 @@
+framework module Pods_meditationApp {
+  umbrella header "Pods-meditationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

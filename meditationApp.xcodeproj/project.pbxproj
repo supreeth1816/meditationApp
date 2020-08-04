@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635498BB34781FCF36811BDD /* Pods_meditationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB112395BE365030D602A456 /* Pods_meditationApp.framework */; };
 		900A1FB624DA0A74002C9570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A1FB524DA0A74002C9570 /* AppDelegate.swift */; };
 		900A1FB824DA0A74002C9570 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A1FB724DA0A74002C9570 /* SceneDelegate.swift */; };
 		900A1FBA24DA0A74002C9570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A1FB924DA0A74002C9570 /* ContentView.swift */; };
 		900A1FBC24DA0A75002C9570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900A1FBB24DA0A75002C9570 /* Assets.xcassets */; };
 		900A1FBF24DA0A75002C9570 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900A1FBE24DA0A75002C9570 /* Preview Assets.xcassets */; };
 		900A1FC224DA0A75002C9570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900A1FC024DA0A75002C9570 /* LaunchScreen.storyboard */; };
+		900A1FCC24DA0B64002C9570 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900A1FCB24DA0B64002C9570 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8237978872A3A642A3D0C56C /* Pods-meditationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditationApp.release.xcconfig"; path = "Target Support Files/Pods-meditationApp/Pods-meditationApp.release.xcconfig"; sourceTree = "<group>"; };
 		900A1FB224DA0A74002C9570 /* meditationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meditationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		900A1FB524DA0A74002C9570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		900A1FB724DA0A74002C9570 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		900A1FBE24DA0A75002C9570 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		900A1FC124DA0A75002C9570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		900A1FC324DA0A75002C9570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900A1FCB24DA0B64002C9570 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FB112395BE365030D602A456 /* Pods_meditationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB398A18B536765532D23E9A /* Pods-meditationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditationApp.debug.xcconfig"; path = "Target Support Files/Pods-meditationApp/Pods-meditationApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635498BB34781FCF36811BDD /* Pods_meditationApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80ACF8CDC3C67774E602B1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB398A18B536765532D23E9A /* Pods-meditationApp.debug.xcconfig */,
+				8237978872A3A642A3D0C56C /* Pods-meditationApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		900A1FA924DA0A73002C9570 = {
 			isa = PBXGroup;
 			children = (
 				900A1FB424DA0A74002C9570 /* meditationApp */,
 				900A1FB324DA0A74002C9570 /* Products */,
+				80ACF8CDC3C67774E602B1E0 /* Pods */,
+				C93A4FE3D7A50FDEF515064B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,7 @@
 				900A1FBB24DA0A75002C9570 /* Assets.xcassets */,
 				900A1FC024DA0A75002C9570 /* LaunchScreen.storyboard */,
 				900A1FC324DA0A75002C9570 /* Info.plist */,
+				900A1FCB24DA0B64002C9570 /* GoogleService-Info.plist */,
 				900A1FBD24DA0A75002C9570 /* Preview Content */,
 			);
 			path = meditationApp;
@@ -75,6 +95,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C93A4FE3D7A50FDEF515064B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB112395BE365030D602A456 /* Pods_meditationApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900A1FC624DA0A75002C9570 /* Build configuration list for PBXNativeTarget "meditationApp" */;
 			buildPhases = (
+				86B29FB10AED6CD7EB6D8931 /* [CP] Check Pods Manifest.lock */,
 				900A1FAE24DA0A74002C9570 /* Sources */,
 				900A1FAF24DA0A74002C9570 /* Frameworks */,
 				900A1FB024DA0A74002C9570 /* Resources */,
+				444623473E2605330571F304 /* [CP] Embed Pods Frameworks */,
+				7548A63A6FFD94EAFD6542B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,10 +167,70 @@
 				900A1FC224DA0A75002C9570 /* LaunchScreen.storyboard in Resources */,
 				900A1FBF24DA0A75002C9570 /* Preview Assets.xcassets in Resources */,
 				900A1FBC24DA0A75002C9570 /* Assets.xcassets in Resources */,
+				900A1FCC24DA0B64002C9570 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		444623473E2605330571F304 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7548A63A6FFD94EAFD6542B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meditationApp/Pods-meditationApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B29FB10AED6CD7EB6D8931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meditationApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		900A1FAE24DA0A74002C9570 /* Sources */ = {
@@ -282,6 +373,7 @@
 		};
 		900A1FC724DA0A75002C9570 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB398A18B536765532D23E9A /* Pods-meditationApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +394,7 @@
 		};
 		900A1FC824DA0A75002C9570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8237978872A3A642A3D0C56C /* Pods-meditationApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

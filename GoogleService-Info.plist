@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>191762134033-l6p6uhqqn8s9r0vbfb5b03o1a9gg7tgn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.191762134033-l6p6uhqqn8s9r0vbfb5b03o1a9gg7tgn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeFi2RE8bRBBbmkwxAneY2UxsGQ6TA7Xk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>191762134033</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.supreeth1816.meditationApp</string>
+	<key>PROJECT_ID</key>
+	<string>meditationapp-8e3b3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meditationapp-8e3b3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:191762134033:ios:cdb2743f30597013232db0</string>
+	<key>DATABASE_URL</key>
+	<string>https://meditationapp-8e3b3.firebaseio.com</string>
+</dict>
+</plist>
