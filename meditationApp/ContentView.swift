@@ -26,13 +26,39 @@ struct ContentView_Previews: PreviewProvider {
 
 
 
-
 // Hello
 
 struct LoginPage : View {
     
     @State var user = ""
     @State var pass = ""
+    
+    func passwordsMatch(_confirmPW:String) -> Bool {
+        return _confirmPW == pass
+    }
+
+    func isEmpty(_field:String) -> Bool {
+        return _field.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    
+    func isEmailValid(_email: String) -> Bool {
+        // Password must contain atleast one uppercase character
+        let passwordTest = NSPredicate(format: "SELF MATCHES %@",
+                                       "[A-Z]")
+        return passwordTest.evaluate(with: user)
+    }
+    
+    
+    func isPasswordValid(_password: String) -> Bool {
+        // Password must be 8 chars, contain a capital letter and a number
+        let passwordTest = NSPredicate(format: "SELF MATCHES %@",
+                                       "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$")
+        return passwordTest.evaluate(with: pass)
+    }
+
+    
+
+    
     
     var body : some View{
     
